@@ -1,0 +1,74 @@
+INFO:__main__:
+
+ORDERED_RULES=True
+NODE_PROBABILITY=1
+
+INFO:__main__:
+
+training 2 models
+INFO:__main__:
+baseline; 
+precision=0.865095; 
+recall=0.914675; 
+f1_score=0.873944; 
+roc_auc=baseline_auc
+INFO:__main__:
+baseline_merged_learner; 
+precision=0.865137; 
+recall=0.914612; 
+f1_score=0.874035; 
+roc_auc=auc
+INFO:__main__:
+best_df_no_rep_merged_learner; 
+precision=0.865137; 
+recall=0.914612; 
+f1_score=0.874035; 
+roc_auc=auc
+INFO:__main__:
+
+training 4 models
+INFO:__main__:
+baseline; 
+precision=0.865095; 
+recall=0.914675; 
+f1_score=0.873944; 
+roc_auc=baseline_auc
+INFO:__main__:
+baseline_merged_learner; 
+precision=0.849305; 
+recall=0.914487; 
+f1_score=0.873911; 
+roc_auc=auc
+INFO:__main__:
+best_df_no_rep_merged_learner; 
+precision=0.849305; 
+recall=0.914487; 
+f1_score=0.873911; 
+roc_auc=auc
+INFO:__main__:
+
+training 6 models
+INFO:__main__:
+baseline; 
+precision=0.865095; 
+recall=0.914675; 
+f1_score=0.873944; 
+roc_auc=baseline_auc
+INFO:__main__:
+baseline_merged_learner; 
+precision=0.87053; 
+recall=0.913549; 
+f1_score=0.876755; 
+roc_auc=auc
+INFO:__main__:
+best_df_no_rep_merged_learner; 
+precision=0.87053; 
+recall=0.913549; 
+f1_score=0.876755; 
+roc_auc=auc
+INFO:__main__:; 
+precision=[[0.865095, 0.865137, 0.865137], [0.865095, 0.849305, 0.849305], [0.865095, 0.87053, 0.87053]]; 
+recall=[[0.914675, 0.914612, 0.914612], [0.914675, 0.914487, 0.914487], [0.914675, 0.913549, 0.913549]]; 
+f1_score=[[0.873944, 0.874035, 0.874035], [0.873944, 0.873911, 0.873911], [0.873944, 0.876755, 0.876755]]; 
+roc_auc_score=[[0.50005, 0.500348, 0.500348], [0.50005, 0.500113, 0.500113], [0.50005, 0.509128, 0.509128]]; 
+nrules=[[50, 99, 98], [50, 114, 106], [50, 143, 135]]
